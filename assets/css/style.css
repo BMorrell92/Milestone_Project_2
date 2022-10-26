@@ -1,0 +1,26 @@
+
+  
+  .app {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .time, .player{
+    height: 50%;
+    flex: 1;
+    flex-direction: row;
+
+  }
+
+
+  .time {
+    background: burlywood;
+  }
+
+  .player {
+    background: lightgreen;
+  }
+
+ 
