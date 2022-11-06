@@ -24,19 +24,19 @@
     <div class="jumbotron">
       <h3 style="text-align:center;">Choose a Time</h3>
       <p class="lead" style="text-align:center;">Did you know, meditating for 5 minutes a day reduces your risk of heart disease by 1000%</p>
-      <div class="col text-center">
-        <button type="button" class="btn btn-primary"
-        style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;"><i class="fab fa-free-code-camp"></i></button>
+      <div class="col text-center time-select">
+
+        <button type="button" class="btn btn-primary" data-time="100"
+        style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;">5:00</button>
       
 
       
-        <button type="button" class="btn btn-outline-primary btn-lg"
-        style="margin-right: 10px; margin-bottom: 10px; margin-top: 10px; --bs-btn-padding-y: 20rem; --bs-btn-padding-x: 20rem; --bs-btn-font-size: 20rem;">
-        10:00</button>
+        <button type="button" class="btn btn-primary" data-time="300"
+        style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;">10:00</button>
       
 
       
-        <button type="button" class="btn btn-primary"
+        <button type="button" class="btn btn-primary" data-time="600"
         style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;">15:00</button>
       
 
@@ -47,23 +47,44 @@
 
     </div>
 
-    <div class="jumbotron"><img class="img-fluid rounded mx-auto d-block"
-        src="https://bootsnipp.com/bootstrap-builder/libs/builder/icons/image.svg" height="128" width="128">
+    <div class="jumbotron player-container">
+
+      <audio class="sound">
+        <source src="assets/sounds/ocean.mp3"/>
+      </audio>
+
+      
+      <div class="playpause">
+        <div class="button"></div>
+      </div>
+
+      <h3 class="time-display">0:00</h3>       
+
     </div>
 
     <div class="jumbotron">
-      <h1 class="display-3">Jumbotron heading</h1>
+      <h3 style="text-align:center;">Choose a Time</h3>
+      <p class="lead" style="text-align:center;">Did you know, meditating for 5 minutes a day reduces your risk of heart disease by 1000%</p>
 
+      <div class="col text-center sound-picker">
 
-      <button type="button" class="btn btn-light"
-        style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;">Primary</button><button type="button"
-        class="btn btn-primary" style="margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">Primary</button><button
-        type="button" class="btn btn-primary"
-        style="margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">Primary</button><button type="button"
-        class="btn btn-primary" style="margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">Primary</button>
+        <button type="button" class="btn btn-primary"
+        style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;">Ocean</button>
+
+        <button type="button" class="btn btn-primary"
+        style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;">Forest</button>
+    
+      
+        <button type="button" class="btn btn-primary" data-sound="/workspace/Milestone_Project_2/assets/sounds/spa_forest_ambiences_ambience_forest_wind_birds_insects_less_presence.mp3"
+        style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;">Rural</button>
+    
+      
+        <button type="button" class="btn btn-primary"
+        style="margin-right: 5px; margin-bottom: 5px; margin-top: 5px;">Dusk</button>
+
+      </div>
+
     </div>
-
-  </div>
 
   <script src="app.js"></script>
 </body>

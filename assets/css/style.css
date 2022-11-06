@@ -1,7 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+
+h1 {
+  font-family: "Fuzzy Bubbles";
+  font-size: 100px;
+  color: azure;
+}
+
 body {
-  background: url('../GIFs/ocean 2.gif') no-repeat center center fixed;
+  background: url('../GIFs/ocean.gif') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.play {
+  justify-content: center;
+}
+
+.player-container {
+  position: relative;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.player-container img {
+  position: absolute;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.track-outline svg circle {
+  transition: all 0.2s ease-in-out;
+  height: 100px;
+}
+.time-display {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  bottom: 10%;
+}
+
+.playpause {
+  padding: 20px;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.playpause:hover {
+  background: #464646;
+}
+
+.playpause .button {
+  width: 80px;
+  height: 80px;
+  background: #f0f0f0;
+  transition: inherit;
+  clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
+}
+
+.playpause.playing .button {
+   clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
 }
