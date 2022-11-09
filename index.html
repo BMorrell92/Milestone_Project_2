@@ -27,17 +27,17 @@
       <p class="lead" style="text-align:center;">Did you know, meditating for 5 minutes a day reduces your risk of heart
         disease by 1000%</p>
       <div class="col text-center time-select">
+        <input checked type="radio" name="time" id="5min" value="300" onchange="reset()">
         <label for="5min" type="button" class="btn btn-primary">5:00</label>
-        <input checked type="radio" name="time" id="5min" value="300" onchange="start()">
 
+        <input type="radio" name="time" id="10min" value="600" onchange="reset()">
         <label for="10min" type="button" class="btn btn-primary">10:00</label>
-        <input type="radio" name="time" id="10min" value="600" onchange="start()">
 
+        <input type="radio" name="time" id="15min" value="900" onchange="reset()">
         <label for="15min" type="button" class="btn btn-primary">15:00</label>
-        <input type="radio" name="time" id="15min" value="900" onchange="start()">
 
+        <input type="radio" name="time" id="20min" value="1200" onchange="reset()">
         <label for="20min" type="button" class="btn btn-primary">20:00</label>
-        <input type="radio" name="time" id="20min" value="1200" onchange="start()">
 
       </div>
 
@@ -101,6 +101,9 @@
         <div class="pause-btn">
           <i class="fa-solid fa-pause"></i>
         </div>
+        <div class="play-btn">
+          <i class="fa-solid fa-play"></i>
+        </div>
       </div>
     </div>
 
@@ -109,19 +112,17 @@
       <p class="lead" style="text-align:center;">Relax with these nature sounds.</p>
 
       <div class="col text-center sound-picker">
-
+        <input checked type="radio" name="sound" id="ocean" value="ocean" onchange="reset()">
         <label for="ocean" class="btn btn-primary">Ocean</label>
-        <input checked type="radio" name="sound" id="ocean" value="ocean" onchange="start()">
 
+        <input type="radio" name="sound" id="forest" value="forest" onchange="reset()">
         <label for="forest" type="button" class="btn btn-primary">Forest</label>
-        <input type="radio" name="sound" id="forest" value="forest" onchange="start()">
 
+        <input type="radio" name="sound" id="rural" value="rural" onchange="reset()">
         <label for="rural" type="button" class="btn btn-primary">Rural</label>
-        <input type="radio" name="sound" id="rural" value="rural" onchange="start()">
 
-
+        <input type="radio" name="sound" id="dusk" value="dusk" onchange="reset()">
         <label for="dusk" type="button" class="btn btn-primary">Dusk</label>
-        <input type="radio" name="sound" id="dusk" value="dusk" onchange="start()">
 
       </div>
 
