@@ -2,15 +2,16 @@
 
 ## Milestone Project 2 - Interactive Front-End Site 
 
-<h2 align="center"><img src="assets/readme/fledgling-website-mockup.jpg"></h2>
-
 * Chill and Listen is an interactive website with the purpose of providing a selection of ambient sounds to encourage meditation or provide a relaxing soudscape to the user. Listen and Chill allows the user to pick how long and what sound they would like to listen to. This website has a responsive and minimalist design, and provides a simple but effective experience to the user. 
 
 * This is my Milestone Project 2 submission for Code Institute's Diploma in Web Application Development course. My website features one page and is built using technologies that I have learnt including HTML, CSS and JavaScript. 
 
+
+<h2 align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Mockup%20Generator.JPG"></h2>
+
 ## Live Project 
 
-[View the live project here.]
+[View the live project here.](https://bmorrell92.github.io/Milestone_Project_2/)
 
 ## Repository
 
