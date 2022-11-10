@@ -57,6 +57,10 @@
 
 [View my wireframes in PDF format here.](https://github.com/BMorrell92/BMorrell_Milestone_Project1/blob/main/assets/wireframe/Wireframes.pdf)
 
+### Typograhpy
+
+All text is in Fuzzy Bubbles. This font is visually appealing and playful. Since the website has minimal text, it was chosen to use this font throughout.
+
 ### Website Architecture
 
 - __General__
