@@ -67,10 +67,10 @@ All text is in Fuzzy Bubbles. This font is visually appealing and playful. Since
 The website consists of one simple page which features all the interactive features. There are three sections where the user can provide input to achieve the desired output; the Time Selection, Play/Pause and Sound Slection sections. The content on the landing page has been styled using [Bootrap Jumbotron Components](https://getbootstrap.com/docs/4.0/components/jumbotron/) to fill as much space as possible. 
 
 - Time Selection:
-<img align="center" src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG">
+<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG">
 
 - Play/Pause Section:
-<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%201.JPG">
+<p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%201.JPG"></p>
 <img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%202.JPG">
 <img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%203.JPG"> 
 
