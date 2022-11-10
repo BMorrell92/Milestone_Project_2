@@ -2,7 +2,7 @@
 
 ## Milestone Project 2 - Interactive Front-End Site 
 
-* Chill and Listen is an interactive website with the purpose of providing a selection of ambient sounds to encourage meditation or provide a relaxing soudscape to the user. Listen and Chill allows the user to pick how long and what sound they would like to listen to. This website has a responsive and minimalist design, and provides a simple but effective experience to the user. 
+* Chill and Listen is an interactive website with the purpose of providing a selection of ambient sounds to encourage meditation or provide a relaxing soudscape for the user to focus to. Listen and Chill allows the user to pick how long and what sound they would like to listen to. This website has a responsive and minimalist design, and provides a simple but effective experience to the user. 
 
 * This is my Milestone Project 2 submission for Code Institute's Diploma in Web Application Development course. My website features one page and is built using technologies that I have learnt including HTML, CSS and JavaScript. 
 
@@ -45,7 +45,7 @@
 
 ## User Stories
 
-*The audience of this website will be those who would like a simple source of ambient sounds for meditation or focusing puropses*
+The audience of this website will be those who would like a simple source of ambient sounds for meditation or focusing puropses
 
 * As a user, I would like to have control over the amount of time I wish to hear ambient sounds. 
 * As a user, I would like to be able to play and pause the ambient sounds as and when required.
@@ -56,7 +56,7 @@
 
 ### Wireframes
 
-[View my wireframes in PDF format here.](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/wireframes/MS2%20Wireframe.pdf)
+[View my wireframes in PDF format here.](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/wireframes/MS2%20Wireframe.pdf). It should be noted, that the wireframes do not exactly match the final product, however, it does capture the main structure.
 
 ### Typograhpy
 
@@ -68,11 +68,16 @@ All text is in Fuzzy Bubbles. This font is visually appealing and playful. Since
 
 The website consists of one simple page which features all the interactive features. There are three sections where the user can provide input to achieve the desired output; the Time Selection, Play/Pause and Sound Slection sections. The content on the landing page has been styled using [Bootrap Jumbotron Components](https://getbootstrap.com/docs/4.0/components/jumbotron/) to fill as much space as possible. 
 
+- Time Selection:
+<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG">
 
-![Time Selection](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG)
-![Play/Pause](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%201.JPG)(https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%202.JPG)(https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%203.JPG)
-![Sound Selection](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Sound%20Section.JPG)
+- Play/Pause Section:
+<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%201.JPG">
+<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%202.JPG">
+<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%203.JPG"> 
 
+- Sound Selection:
+<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Sound%20Section.JPG"> 
 
 ### Current Features
 
