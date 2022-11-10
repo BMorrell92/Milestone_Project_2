@@ -14,7 +14,7 @@
 
 ## Repository
 
-[Find the project repository here]
+[Find the project repository here](https://bmorrell92.github.io/Milestone_Project_2/)
 
 # Table of Contents  
 
@@ -55,11 +55,11 @@
 
 ### Wireframes
 
-[View my wireframes in PDF format here.](https://github.com/BMorrell92/BMorrell_Milestone_Project1/blob/main/assets/wireframe/Wireframes.pdf)
+[View my wireframes in PDF format here.](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/wireframes/MS2%20Wireframe.pdf)
 
 ### Typograhpy
 
-All text is in Fuzzy Bubbles. This font is visually appealing and playful. Since the website has minimal text, it was chosen to use this font throughout.
+All text is in Fuzzy Bubbles. This font is visually appealing and playful. Since the website has minimal text, it is the chosen font throughout.
 
 ### Website Architecture
 
@@ -68,9 +68,9 @@ All text is in Fuzzy Bubbles. This font is visually appealing and playful. Since
 The website consists of one simple page which features all the interactive features. There are three sections where the user can provide input to achieve the desired output; the Time Selection, Play/Pause and Sound Slection sections. The content on the landing page has been styled using [Bootrap Jumbotron Components](https://getbootstrap.com/docs/4.0/components/jumbotron/) to fill as much space as possible. 
 
 
-![Time Selection](https://github.com/BMorrell92/BMorrell_Milestone_Project1/blob/main/assets/images/website_home.JPG)
-![Play/Pause](https://github.com/BMorrell92/BMorrell_Milestone_Project1/blob/main/assets/images/website_home.JPG)
-![Sound Selection](https://github.com/BMorrell92/BMorrell_Milestone_Project1/blob/main/assets/images/website_home.JPG)
+![Time Selection](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG)
+![Play/Pause](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%201.JPG)(https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%202.JPG)(https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%203.JPG)
+![Sound Selection](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Sound%20Section.JPG)
 
 
 ### Current Features
