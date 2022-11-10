@@ -15,6 +15,7 @@ h3,
 p {
   color: azure;
   margin-bottom: 20px;
+  font-family: "Fuzzy Bubbles";
 }
 
 body {
@@ -42,8 +43,8 @@ body.rural {
   -o-background-size: cover;
 }
 
-body.dusk {
-  background: url('../GIFs/dusk.gif') no-repeat center center fixed;
+body.dawn {
+  background: url('../GIFs/dawn.gif') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -58,7 +59,6 @@ body.dusk {
 
 .time-select,
 .sound-picker {
-  display: flex;
   justify-content: center;
   gap: 0 1rem;
 }
