@@ -24,8 +24,7 @@
 
     <div class="jumbotron">
       <h3 style="text-align:center;">Choose a Time</h3>
-      <p class="lead" style="text-align:center;">Did you know, meditating for 5 minutes a day reduces your risk of heart
-        disease by 1000%</p>
+      <p class="lead" style="text-align:center;">Sit back, relax and take some time to meditate or focus to the ambient sounds of nature.</p>
       <div class="col text-center time-select">
         <input checked type="radio" name="time" id="5min" value="300" onchange="reset()">
         <label for="5min" type="button" class="btn btn-primary">5:00</label>
@@ -60,8 +59,8 @@
 
     <div class="timer-container">
       <div class="all-audios">
-        <audio data-audio="dusk" loop class="myAudio">
-          <source src="assets/sounds/dusk.mp3" />
+        <audio data-audio="dawn" loop class="myAudio">
+          <source src="assets/sounds/dawn.mp3" />
           Unfortunately your browser doesn't support html5 audio streaming,
           please update your browser.
         </audio>
@@ -78,7 +77,7 @@
           please update your browser.
         </audio>
 
-        <audio data-audio="rural" loop class="myAudio">
+        <audio data-audio="rural" loop class="myAudio" alt="sounds of the rural countryside">
           <source src="assets/sounds/rural.mp3" />
           Unfortunately your browser doesn't support html5 audio streaming,
           please update your browser.
@@ -112,17 +111,22 @@
       <p class="lead" style="text-align:center;">Relax with these nature sounds.</p>
 
       <div class="col text-center sound-picker">
-        <input checked type="radio" name="sound" id="ocean" value="ocean" onchange="reset()">
-        <label for="ocean" class="btn btn-primary">Ocean</label>
 
+        
+        <input checked type="radio" name="sound" id="ocean" value="ocean" onchange="reset()">
+        <label for="ocean" class="btn btn-primary"><i class="fa-solid fa-water"> Ocean</i></label>
+       
+
+        
         <input type="radio" name="sound" id="forest" value="forest" onchange="reset()">
-        <label for="forest" type="button" class="btn btn-primary">Forest</label>
+        <label for="forest" type="button" class="btn btn-primary"><i class="fa-solid fa-tree"> Forest</i></label>
+        
 
         <input type="radio" name="sound" id="rural" value="rural" onchange="reset()">
-        <label for="rural" type="button" class="btn btn-primary">Rural</label>
+        <label for="rural" type="button" class="btn btn-primary"><i class="fa-solid fa-cow"> Rural</i></label>
 
-        <input type="radio" name="sound" id="dusk" value="dusk" onchange="reset()">
-        <label for="dusk" type="button" class="btn btn-primary">Dusk</label>
+        <input type="radio" name="sound" id="dawn" value="dawn" onchange="reset()">
+        <label for="dawn" type="button" class="btn btn-primary"><i class="fas fa-sun"> Dawn</i></label>
 
       </div>
 
