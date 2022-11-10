@@ -7,7 +7,7 @@
 * This is my Milestone Project 2 submission for Code Institute's Diploma in Web Application Development course. My website features one page and is built using technologies that I have learnt including HTML, CSS and JavaScript. 
 
 
-<h2 align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Mockup%20Generator.JPG"></h2>
+<h2><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Mockup%20Generator.JPG"></h2>
 
 ## Live Project 
 
