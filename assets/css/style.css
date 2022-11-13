@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
 
+
+ /*Overides Bootstrapo box sizing */
+
 * {
   box-sizing: border-box;
 }
 
+ /*Typography */
 h1 {
   font-family: "Fuzzy Bubbles";
   font-size: 100px;
@@ -18,6 +22,7 @@ p {
   font-family: "Fuzzy Bubbles";
 }
 
+/*Background wallpaper */
 body {
   background: url('../GIFs/ocean.gif') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -51,18 +56,21 @@ body.dawn {
   -o-background-size: cover;
 }
 
+/*Overides margin and padding values on the jumbotron class and discards the background */
 .jumbotron {
   margin: 0;
   padding: 30px;
   background: none;
 }
 
+/*Centers and spaces the buttons */
 .time-select,
 .sound-picker {
   justify-content: center;
   gap: 0 1rem;
 }
 
+/*Changes the color of selected inputs with the radio class */
 input[type="radio"] {
   display: none;
 }
@@ -72,6 +80,7 @@ input[type="radio"]:checked+label {
   border-color: green;
 }
 
+/*Styling for the timer container */
 .timer-container {
   display: flex;
   flex-direction: column;
@@ -91,6 +100,7 @@ input[type="radio"]:checked+label {
 }
 
 /* scaleX(1) = CLOCKWISE, scaleX(-1) = ANTI-CLOCKWISE */
+/*Styling for the timer feature */
 .base-timer__svg {
   transform: scaleX(1);
 }
@@ -156,6 +166,7 @@ input[type="radio"]:checked+label {
   font-size: 100px;
 }
 
+/*Media queries*/
 @media screen and (max-width:991px) {
   h1 {
     font-size: 50px;
@@ -175,52 +186,3 @@ input[type="radio"]:checked+label {
 }
 
 
-/* OLD CSS */
-
-/*  
-.play {
-  justify-content: center;
-}
-
-.player-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-
-.track-outline svg circle {
-  transition: all 0.2s ease-in-out;
-  height: 100px;
-}
-
-.time-display {
-  color: white;
-  position: absolute;
-  font-size: 50px;
-  bottom: 10%;
-}
-
-.playpause {
-  padding: 30px;
-  border-radius: 50%;
-  background: transparent;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-
-.playpause:hover {
-  background: #464646;
-}
-
-.playpause .button {
-  width: 80px;
-  height: 80px;
-  background: #f0f0f0;
-  transition: inherit;
-  clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
-}
-
-.playpause.playing .button {
-  clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
-} */
