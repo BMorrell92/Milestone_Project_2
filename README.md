@@ -75,12 +75,12 @@ The website consists of one simple page which intergrates all the interactive fe
 
 ### Current Features
 
-- __Responsive Design__
+- Responsive Design:
 
   - By designing with a Mobile First philosophy the website can be viewed on any device, adjusting the layout according to the device.  
   - Bootstrap grid systems and flex classes have been used to acheive the responsive design.
 
- - __Interactive Features__
+ - Interactive Features:
 
   - Time Selection: The user sets the timer by selecting a time.
   - Play/Pause Button: The user can play or pause the timer which also controls the audio.
