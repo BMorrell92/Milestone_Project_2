@@ -108,12 +108,18 @@ The website consists of one simple page which intergrates all the interactive fe
 ### Validator Testing 
 
 - HTML:
-  - index.html: 0 errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbmorrell92.github.io%2FBMorrell_Milestone_Project1%2Findex.html).
+  - index.html: 0 errors were returned when passing through the official W3C validator
+  <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG"></p>
+
   
 - CSS:
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbmorrell92.github.io%2FBMorrell_Milestone_Project1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official W3C validator 
+ <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG"></p>
+
 
 - JSHINT:
+- No errors were found when passing through the JSHint Validator 
+ <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG"></p>
 
 
 ### Browser Compatability
@@ -140,14 +146,55 @@ By using Google Chrome's Dev Tool, compatability was checked on the following de
 - IPad
 - IPad Pro
 
-It was found that on some devices the contact page was too short and the footer was not at the bottom of the page. This was fixed by adding bottom padding to the contact form. The website was found to be responsive on all devices.
+ The website was found to be responsive on all devices.
 
 ### Manual Testing 
 
+- Timer Function:
+
+  - All four time inputs have been tested and proven to work.  
+  - Play/Pause button has been tested and proven to work.
+  - Timer duration animation has been observed to work in sync with all times.
+
+
+- Audio and Background Wallpaper:
+
+  - All four audio selections have been tested and proven to work.  
+  - Background wallpaper changes as intended when specific sound is selected
+
 ### Challenging User Stories 
 
+- *"As a user, I would like to have control over the amount of time I wish to hear ambient sounds."* - **The user has a selection of four different times**
+- *"As a user, I would like to be able to play and pause the ambient sounds as and when required."* - **The user can play or pause the sounds using the play/pause button**
+- *"As a user, I would like to choose from a selection of ambient sounds."* - **The user has a selection of four different ambient sounds**
+- *"As a user, I would like to see a background image/video of the selected ambient sound for added effect."* - **The background wallpaper changes with each selected sound to match the theme**
+
+### User Feedback
+
+I asked a small group of friends and colleagues to test the website. I implemented some changes following feedback, but some changes were added to the "Future Features" section. The Feedback was as follows:
+
+- *"It would be nice to have a box to input a specific time rather than having to select from defined options."* - Future Feature
+- *"The grainy background GIFs give the site a nice aesthetic, but it would look more professional with some high quality videos in the background"* - Future Feature
+- *"Is it possible to incorporate a timer bar?"* - Implemented into project
+- *"A wider selection of sounds would be cool"* - Future Feature
 
 
+### Bugs
+
+## Credits 
+
+I would like to credit Code Institute for providing easy to follow content and all the necassary source code from their tutorials. The structure of JAMS Galatica FM was heavily based on the Resume mini project. Other functionalities added to the website were taken from open source content available online. 
+
+### Content 
+
+- The icons used were taken from [Font Awesome](https://fontawesome.com/)
+- The main website structure and code used for this project has been duplicated from the Code Institutes Resume website mini project. Various styling and layout changes have been made to repurpose the website specific to this project.
+- The footer code used for this project has been dulicated from the Code Institutes Love Running website mini project.
+- The source code for the gallery layout of Media page was taken from https://mdbootstrap.com/docs/standard/extended/gallery/
+
+### Media
+
+- The GIFs used for the Title Banner and Events page were taken from open source website https://giphy.com/explore/open-source
 
 
 
