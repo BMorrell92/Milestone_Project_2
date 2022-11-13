@@ -82,9 +82,9 @@ The website consists of one simple page which intergrates all the interactive fe
 
  - Interactive Features:
 
-  - Time Selection: The user sets the timer by selecting a time.
-  - Play/Pause Button: The user can play or pause the timer which also controls the audio.
-  - Sound Selection: The user can select a sound which will also set a background GIF specific to the selected sound.
+    - Time Selection: The user sets the timer by selecting a time.
+    - Play/Pause Button: The user can play or pause the timer which also controls the audio.
+    - Sound Selection: The user can select a sound which will also set a background GIF specific to the selected sound.
 
 ### Future Features
 
