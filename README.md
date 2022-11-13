@@ -1,8 +1,8 @@
-# Meditation Website ("Chill and Listen!")
+# Listen & Chill! (Meditation Website) Listen & Chill! 
 
 ## Milestone Project 2 - Interactive Front-End Site 
 
-* Chill and Listen is an interactive website with the purpose of providing a selection of ambient sounds to encourage meditation or provide a relaxing soudscape for the user to focus to. Listen and Chill allows the user to pick how long and what sound they would like to listen to. This website has a responsive and minimalist design, and provides a simple but effective experience to the user. 
+* Listen & Chill is an interactive website with the purpose of providing a selection of ambient sounds to encourage meditation or provide a relaxing soudscape for the user to focus to. Listen and Chill allows the user to pick how long and what sound they would like to listen to. This website has a responsive and minimalist design, and provides a simple but effective experience to the user. 
 
 * This is my Milestone Project 2 submission for Code Institute's Diploma in Web Application Development course. My website features one page and is built using technologies that I have learnt including HTML, CSS and JavaScript. 
 
@@ -15,16 +15,12 @@
 
 ## Repository
 
-[Find the project repository here](https://bmorrell92.github.io/Milestone_Project_2/)
+[Find the project repository here](https://github.com/BMorrell92/Milestone_Project_2)
 
 # Table of Contents  
 
 ## Contents
 - [User Stories](#user-stories)
-    + [Electronic Music Listeners](#electronic-music-listener)
-    + [Events Organisers](#events-organisers)
-    + [Music Producers](#music-producers)
-    + [JAMS Galatica FM Creator](#jams-galatica-fm-creator)
 - [Website Structure and Features](#Website-Structure-and-Features)
   + [Wireframes](#wireframes)
   + [Website Architecture](#website-architecture)
@@ -64,31 +60,31 @@ All text is in Fuzzy Bubbles. This font is visually appealing and playful. Since
 
 ### Website Architecture
 
-The website consists of one simple page which features all the interactive features. There are three sections where the user can provide input to achieve the desired output; the Time Selection, Play/Pause and Sound Slection sections. The content on the landing page has been styled using [Bootrap Jumbotron Components](https://getbootstrap.com/docs/4.0/components/jumbotron/) to fill as much space as possible. 
+The website consists of one simple page which intergrates all the interactive features. There are three sections where the user can provide input to achieve the desired output; the Time Selection, Play/Pause and Sound Selection sections. The content on the landing page has been styled using [Bootrap Jumbotron Components](https://getbootstrap.com/docs/4.0/components/jumbotron/) to fill as much space as possible. 
 
 - Time Selection:
-<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG">
+<p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG"></p>
 
 - Play/Pause Section:
 <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%201.JPG"></p>
-<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%202.JPG">
-<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%203.JPG"> 
+<p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%202.JPG"></p>
+<p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Play%20Section%203.JPG"></p> 
 
 - Sound Selection:
-<img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Sound%20Section.JPG"> 
+<p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Sound%20Section.JPG"></p>
 
 ### Current Features
 
 - __Responsive Design__
 
- - By designing with a Mobile First philosophy Listen and Chill can be viewed on any device, adjusting the layout according to the device.  
+ - By designing with a Mobile First philosophy the website can be viewed on any device, adjusting the layout according to the device.  
  - Bootstrap grid systems and flex classes have been used to acheive the responsive design.
 
  - __Interactive Features__
 
- - Time Selection: .
- - Play/Pause Button: .
- - Sound S.
+ - Time Selection: The user sets the timer by selecting a time.
+ - Play/Pause Button: The user can play or pause the timer which also controls the audio.
+ - Sound Selection: The user can select a sound which will also set a background GIF specific to the selected sound.
 
 ### Future Features
 
