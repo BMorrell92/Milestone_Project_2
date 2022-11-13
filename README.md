@@ -1,4 +1,4 @@
-# Listen & Chill! (Meditation Website) Listen & Chill! 
+# Listen & Chill! (Meditation Website) 
 
 ## Milestone Project 2 - Interactive Front-End Site 
 
@@ -52,7 +52,7 @@ The audience of this website will be those who would like a simple source of amb
 
 ### Wireframes
 
-[View my wireframes in PDF format here.](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/wireframes/MS2%20Wireframe.pdf). It should be noted, that the wireframes do not exactly match the final product, however, it does capture the main structure.
+[View my wireframes in PDF format here.](https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/wireframes/MS2%20Wireframe.pdf) It should be noted, that the wireframes do not exactly match the final product, however, it does capture the main structure.
 
 ### Typograhpy
 
@@ -77,30 +77,31 @@ The website consists of one simple page which intergrates all the interactive fe
 
 - __Responsive Design__
 
- - By designing with a Mobile First philosophy the website can be viewed on any device, adjusting the layout according to the device.  
- - Bootstrap grid systems and flex classes have been used to acheive the responsive design.
+  - By designing with a Mobile First philosophy the website can be viewed on any device, adjusting the layout according to the device.  
+  - Bootstrap grid systems and flex classes have been used to acheive the responsive design.
 
  - __Interactive Features__
 
- - Time Selection: The user sets the timer by selecting a time.
- - Play/Pause Button: The user can play or pause the timer which also controls the audio.
- - Sound Selection: The user can select a sound which will also set a background GIF specific to the selected sound.
+  - Time Selection: The user sets the timer by selecting a time.
+  - Play/Pause Button: The user can play or pause the timer which also controls the audio.
+  - Sound Selection: The user can select a sound which will also set a background GIF specific to the selected sound.
 
 ### Future Features
 
-- An interactive events timeline that allows the user to select indvidual elements and get further information about events.
-- A blog section to share insights and updates with users.
-- E-commerce section to advertise and sell merch.
+- A time input function that allows the user to input a precise time.
+- Addition of high quality background videos, as opposed to GIF's.
+- A larger selection of sounds.
 
 ## Technologies and Libaries Used
 1. [HTML5](https://www.w3.org/TR/html52/)
 2. [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
-3. [Bootstrap framework for structuring](http://getbootstrap.com/)
-4. [Github for Repo creation and managment](https://github.com/)
-5. [Gitpod for file creation and code editing](https://gitpod.io/)
-6. [Balsamiq was used to create Wireframes for the project](https://balsamiq.com/)
-7. [Google Chrome's Dev Tools were used while building the project to test responsiveness and for debugging](https://developer.chrome.com/docs/devtools/)
-8. [The icons used were taken from Font Awesome](https://fontawesome.com/)
+3. [Javascript](https://www.javascript.com/)
+4. [Bootstrap framework for structuring](http://getbootstrap.com/)
+5. [Github for Repo creation and managment](https://github.com/)
+6. [Gitpod for file creation and code editing](https://gitpod.io/)
+7. [Figma was used to create Wireframes for the project](https://www.figma.com/)
+8. [Google Chrome's Dev Tools were used while building the project to test responsiveness, functionality and for debugging](https://developer.chrome.com/docs/devtools/)
+9. [The icons used were taken from Font Awesome](https://fontawesome.com/)
 
 ## Testing 
 
