@@ -1,8 +1,3 @@
-// const playpause = document.querySelector('.playpause');
-
-// playpause.addEventListener('click', () => {
-//   playpause.classList.toggle('playing');
-// });
 
 let myAudios = document.querySelector(".all-audios");
 let selected = "ocean";
