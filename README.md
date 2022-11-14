@@ -122,7 +122,7 @@ The website consists of one simple page which intergrates all the interactive fe
 
 
 - **Javascript:**
-- No errors were found when passing through the JSHint Validator or Chrome Developer Tool
+    - No errors were found when passing through the JSHint Validator or Chrome Developer Tool
  <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/JS%20Validator.JPG"></p>
  <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/JS%20Chrome.jpg"></p>
 
