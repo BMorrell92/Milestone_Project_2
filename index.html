@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+    type="text/css">
   <link rel="stylesheet" href="assets/css/style.css">
 
   <script src="https://kit.fontawesome.com/90ad587b2a.js" crossorigin="anonymous"></script>
@@ -17,110 +18,109 @@
 
   <!-- Time Selection Section -->
 
-    <div class="header clearfix">
-      <h1 style="text-align: center; margin-top: 10px;">Listen & Chill!</h1>
+  <div class="header clearfix">
+    <h1 style="text-align: center; margin-top: 10px;">Listen & Chill!</h1>
+  </div>
+
+  <div class="jumbotron">
+    <h3 style="text-align:center;">Choose a Time</h3>
+    <p class="lead" style="text-align:center;">Sit back, relax and take some time to meditate or focus to the ambient
+      sounds of nature.</p>
+    <div class="col text-center time-select">
+      <input checked type="radio" name="time" id="5min" value="300" onchange="reset()">
+      <label for="5min" class="btn btn-primary">5:00</label>
+
+      <input type="radio" name="time" id="10min" value="600" onchange="reset()">
+      <label for="10min" class="btn btn-primary">10:00</label>
+
+      <input type="radio" name="time" id="15min" value="900" onchange="reset()">
+      <label for="15min" class="btn btn-primary">15:00</label>
+
+      <input type="radio" name="time" id="20min" value="1200" onchange="reset()">
+      <label for="20min" class="btn btn-primary">20:00</label>
+
     </div>
 
-    <div class="jumbotron">
-      <h3 style="text-align:center;">Choose a Time</h3>
-      <p class="lead" style="text-align:center;">Sit back, relax and take some time to meditate or focus to the ambient sounds of nature.</p>
-      <div class="col text-center time-select">
-        <input checked type="radio" name="time" id="5min" value="300" onchange="reset()">
-        <label for="5min"  class="btn btn-primary">5:00</label>
+  </div>
 
-        <input type="radio" name="time" id="10min" value="600" onchange="reset()">
-        <label for="10min" class="btn btn-primary">10:00</label>
+  <!-- Timer Section -->
 
-        <input type="radio" name="time" id="15min" value="900" onchange="reset()">
-        <label for="15min"  class="btn btn-primary">15:00</label>
+  <div class="timer-container">
+    <div class="all-audios">
+      <audio data-audio="dawn" loop class="myAudio">
+        <source src="assets/sounds/dawn.mp3">
+        Unfortunately your browser doesn't support html5 audio streaming,
+        please update your browser.
+      </audio>
 
-        <input type="radio" name="time" id="20min" value="1200" onchange="reset()">
-        <label for="20min" class="btn btn-primary">20:00</label>
+      <audio data-audio="forest" loop class="myAudio">
+        <source src="assets/sounds/forest.mp3">
+        Unfortunately your browser doesn't support html5 audio streaming,
+        please update your browser.
+      </audio>
 
-      </div>
+      <audio data-audio="ocean" loop class="myAudio">
+        <source src="assets/sounds/ocean.mp3">
+        Unfortunately your browser doesn't support html5 audio streaming,
+        please update your browser.
+      </audio>
 
+      <audio data-audio="rural" loop class="myAudio">
+        <source src="assets/sounds/rural.mp3">
+        Unfortunately your browser doesn't support html5 audio streaming,
+        please update your browser.
+      </audio>
     </div>
 
-    <!-- Timer Section -->
-
-    <div class="timer-container">
-      <div class="all-audios">
-        <audio data-audio="dawn" loop class="myAudio">
-          <source src="assets/sounds/dawn.mp3">
-          Unfortunately your browser doesn't support html5 audio streaming,
-          please update your browser.
-        </audio>
-
-        <audio data-audio="forest" loop class="myAudio">
-          <source src="assets/sounds/forest.mp3">
-          Unfortunately your browser doesn't support html5 audio streaming,
-          please update your browser.
-        </audio>
-
-        <audio data-audio="ocean" loop class="myAudio">
-          <source src="assets/sounds/ocean.mp3">
-          Unfortunately your browser doesn't support html5 audio streaming,
-          please update your browser.
-        </audio>
-
-        <audio data-audio="rural" loop class="myAudio">
-          <source src="assets/sounds/rural.mp3">
-          Unfortunately your browser doesn't support html5 audio streaming,
-          please update your browser.
-        </audio>
-      </div>
-
-      <div class="base-timer">
-        <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <g class="base-timer__circle">
-            <path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining arc" d="
+    <div class="base-timer">
+      <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <g class="base-timer__circle">
+          <path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining arc" d="
                M 50, 50
                m -45, 0
                a 45,45 0 1,0 90,0
                a 45,45 0 1,0 -90,0
                "></path>
-          </g>
-        </svg>
+        </g>
+      </svg>
 
-        <span id="base-timer-label" class="base-timer__label"></span>
-        <div class="pause-btn">
-          <i class="fa-solid fa-pause"></i>
-        </div>
-        <div class="play-btn">
-          <i class="fa-solid fa-play"></i>
-        </div>
+      <span id="base-timer-label" class="base-timer__label"></span>
+      <div class="pause-btn">
+        <i class="fa-solid fa-pause"></i>
+      </div>
+      <div class="play-btn">
+        <i class="fa-solid fa-play"></i>
       </div>
     </div>
+  </div>
 
-    <!-- Sound Selection Section -->
+  <!-- Sound Selection Section -->
 
-    <div class="jumbotron">
-      <h3 style="text-align:center;">Choose a Sound</h3>
-      <p class="lead" style="text-align:center;">Relax with these nature sounds.</p>
+  <div class="jumbotron">
+    <h3 style="text-align:center;">Choose a Sound</h3>
+    <p class="lead" style="text-align:center;">Relax with these nature sounds.</p>
 
-      <div class="col text-center sound-picker">
+    <div class="col text-center sound-picker">
 
-        
-        <input type="radio" name="sound" id="ocean" value="ocean" onchange="reset()">
-        <label for="ocean" class="btn btn-primary"><i class="fa-solid fa-water"> Ocean</i></label>
-       
 
-      
-        <input type="radio" name="sound" id="forest" value="forest" onchange="reset()">
-        <label for="forest" class="btn btn-primary"><i class="fa-solid fa-tree"> Forest</i></label>
-        
+      <input type="radio" name="sound" id="ocean" value="ocean" onchange="reset()">
+      <label for="ocean" class="btn btn-primary"><i class="fa-solid fa-water"> Ocean</i></label>
 
-        <input type="radio" name="sound" id="rural" value="rural" onchange="reset()">
-        <label for="rural" class="btn btn-primary"><i class="fa-solid fa-cow"> Rural</i></label>
+      <input type="radio" name="sound" id="forest" value="forest" onchange="reset()">
+      <label for="forest" class="btn btn-primary"><i class="fa-solid fa-tree"> Forest</i></label>
 
-        <input type="radio" name="sound" id="dawn" value="dawn" onchange="reset()">
-        <label for="dawn" class="btn btn-primary"><i class="fas fa-sun"> Dawn</i></label>
 
-      </div>
+      <input type="radio" name="sound" id="rural" value="rural" onchange="reset()">
+      <label for="rural" class="btn btn-primary"><i class="fa-solid fa-cow"> Rural</i></label>
+
+      <input type="radio" name="sound" id="dawn" value="dawn" onchange="reset()">
+      <label for="dawn" class="btn btn-primary"><i class="fas fa-sun"> Dawn</i></label>
 
     </div>
 
-    <script src="app.js"></script>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 
 </html>
