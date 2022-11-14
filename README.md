@@ -75,12 +75,12 @@ The website consists of one simple page which intergrates all the interactive fe
 
 ### Current Features
 
-- Responsive Design:
+- **Responsive Design:**
 
   - By designing with a Mobile First philosophy the website can be viewed on any device, adjusting the layout according to the device.  
   - Bootstrap grid systems and flex classes have been used to acheive the responsive design.
 
- - Interactive Features:
+ - **Interactive Features:**
 
     - Time Selection: The user sets the timer by selecting a time.
     - Play/Pause Button: The user can play or pause the timer which also controls the audio.
@@ -107,19 +107,20 @@ The website consists of one simple page which intergrates all the interactive fe
 
 ### Validator Testing 
 
-- HTML:
+- **HTML:**
   - index.html: 0 errors were returned when passing through the official W3C validator
-  <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG"></p>
+  <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/HTML%20Validator.jpg"></p>
 
   
-- CSS:
+- **CSS:**
   - No errors were found when passing through the official W3C validator 
- <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG"></p>
+ <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/CSS%20Validator.JPG"></p>
 
 
-- JSHINT:
+- **Javascript:**
 - No errors were found when passing through the JSHint Validator 
- <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/Time%20Section.JPG"></p>
+ <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/JS%20Validator.JPG"></p>
+ <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/JS%20Chrome.jpg"></p>
 
 
 ### Browser Compatability
@@ -179,22 +180,31 @@ I asked a small group of friends and colleagues to test the website. I implement
 - *"A wider selection of sounds would be cool"* - Future Feature
 
 
-### Bugs
+## Bugs
+
+### Resolved
+- **HTML Validation:**
+    - When I first validated my game page HTML, the validator came back with an error; “Attribute ‘type' not allowed on element label at this point”. To solve the issue I ommitted the type attribute from all label elements as they were not needed.
+
+- **Background Wallpaper not Resetting from "Dawn" Sound:**
+    - When I was first manually testing the website for all it's interactive features, I noticed that the 
+### Unresolved
+- **Rendering Speed:**
+  - It has been noticed that rendering issues occur with poor internet speeds, which can occasionally affect the user experience. On this occassion, all media content is being hosted within the source code, however, any future improvments will have to utilise CDN's to improve the rendering time of the website.
 
 ## Credits 
 
-I would like to credit Code Institute for providing easy to follow content and all the necassary source code from their tutorials. The structure of JAMS Galatica FM was heavily based on the Resume mini project. Other functionalities added to the website were taken from open source content available online. 
+I would like to credit Code Institute for providing easy-to-follow content and all the necessary source code from their tutorials.  
 
 ### Content 
 
 - The icons used were taken from [Font Awesome](https://fontawesome.com/)
-- The main website structure and code used for this project has been duplicated from the Code Institutes Resume website mini project. Various styling and layout changes have been made to repurpose the website specific to this project.
-- The footer code used for this project has been dulicated from the Code Institutes Love Running website mini project.
-- The source code for the gallery layout of Media page was taken from https://mdbootstrap.com/docs/standard/extended/gallery/
+- The JS code was developed using this [Youtube tutorial](https://www.youtube.com/watch?v=oMBXdZzYqEk) and various other sources.
 
 ### Media
 
-- The GIFs used for the Title Banner and Events page were taken from open source website https://giphy.com/explore/open-source
+- The GIFs used for the background wallpaper were taken from open source website https://giphy.com/explore/open-source
+- The sound used for the website were sourced from free sound effect website https://www.zapsplat.com/
 
 
 
