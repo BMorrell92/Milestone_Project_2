@@ -23,6 +23,7 @@
 - [User Stories](#user-stories)
 - [Website Structure and Features](#Website-Structure-and-Features)
   + [Wireframes](#wireframes)
+  + [Typography](#typography)
   + [Website Architecture](#website-architecture)
   + [Current Feautures](#current-features)
   + [Future Feautures](#future-features)
@@ -31,9 +32,12 @@
   + [Validator Testing](#validtor-testing)
   + [Browser Compatability](#browser-compatability)
   + [Device Compatability](#device-compatability)
+  + [Manual Testing](#manual-testing)
   + [Challenging User Stories](#Challenging-User-Stories)
   + [User Feedback](#User-Feedback)
-- [Deployment](#deployment)
+- [Bugs](#bugs)
+  + [Resolved](#resolved)
+  + [Unresolved](#Unresolved)
 - [Credits](#credits)
   + [Content](#content)
   + [Media](#media)
@@ -118,7 +122,7 @@ The website consists of one simple page which intergrates all the interactive fe
 
 
 - **Javascript:**
-- No errors were found when passing through the JSHint Validator 
+- No errors were found when passing through the JSHint Validator or Chrome Developer Tool
  <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/JS%20Validator.JPG"></p>
  <p align="center"><img src="https://github.com/BMorrell92/Milestone_Project_2/blob/main/assets/images/JS%20Chrome.jpg"></p>
 
@@ -174,10 +178,10 @@ By using Google Chrome's Dev Tool, compatability was checked on the following de
 
 I asked a small group of friends and colleagues to test the website. I implemented some changes following feedback, but some changes were added to the "Future Features" section. The Feedback was as follows:
 
-- *"It would be nice to have a box to input a specific time rather than having to select from defined options."* - Future Feature
-- *"The grainy background GIFs give the site a nice aesthetic, but it would look more professional with some high quality videos in the background"* - Future Feature
-- *"Is it possible to incorporate a timer bar?"* - Implemented into project
-- *"A wider selection of sounds would be cool"* - Future Feature
+- *"It would be nice to have a box to input a specific time rather than having to select from defined options."* - **Future Feature**
+- *"The grainy background GIFs give the site a nice aesthetic, but it would look more professional with some high quality videos in the background"* - **Future Feature**
+- *"Is it possible to incorporate a timer bar?"* - **Implemented into project**
+- *"A wider selection of sounds would be cool"* - **Future Feature**
 
 
 ## Bugs
@@ -187,7 +191,8 @@ I asked a small group of friends and colleagues to test the website. I implement
     - When I first validated my game page HTML, the validator came back with an error; “Attribute ‘type' not allowed on element label at this point”. To solve the issue I ommitted the type attribute from all label elements as they were not needed.
 
 - **Background Wallpaper not Resetting from "Dawn" Sound:**
-    - When I was first manually testing the website for all it's interactive features, I noticed that the 
+    - When I was first manually testing the website for all it's interactive features, I noticed that the background wallpaper was sticking on the "Dawn" audio, and the website need to be refreshed to restore functionality. I solved this bug by adjusting the reset and set audio & background functions in the JS code. 
+
 ### Unresolved
 - **Rendering Speed:**
   - It has been noticed that rendering issues occur with poor internet speeds, which can occasionally affect the user experience. On this occassion, all media content is being hosted within the source code, however, any future improvments will have to utilise CDN's to improve the rendering time of the website.
@@ -204,7 +209,7 @@ I would like to credit Code Institute for providing easy-to-follow content and a
 ### Media
 
 - The GIFs used for the background wallpaper were taken from open source website https://giphy.com/explore/open-source
-- The sound used for the website were sourced from free sound effect website https://www.zapsplat.com/
+- The sound used for the website was sourced from a free sound effect website https://www.zapsplat.com/
 
 
 
