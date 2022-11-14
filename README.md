@@ -165,7 +165,8 @@ By using Google Chrome's Dev Tool, compatability was checked on the following de
 - Audio and Background Wallpaper:
 
   - All four audio selections have been tested and proven to work.  
-  - Background wallpaper changes as intended when specific sound is selected
+  - Background wallpaper changes as intended when specific sound is selected.
+  - Audio sucessfully loops through for the whole duration.
 
 ### Challenging User Stories 
 
